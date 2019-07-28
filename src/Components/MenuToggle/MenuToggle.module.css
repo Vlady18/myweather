@@ -1,0 +1,22 @@
+.MenuToggle{
+    color: #fff;
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+    top: 20px;
+    transition: right, opacity .9s ease;
+
+}
+.MenuToggle:hover{
+    opacity: .7;
+}
+.open{
+    right: 315px;
+}
+@media screen and (max-width: 360px) {
+    .open{
+        right: 285px;
+    }
+}
