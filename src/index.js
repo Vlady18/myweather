@@ -7,17 +7,17 @@ import {applyMiddleware, createStore} from 'redux'
 import {rootReducer} from "./redux/reducers/rootReducer";
 import thunk from "redux-thunk";
 import {Provider} from "react-redux";
-import {BrowserRouter, HashRouter} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import 'semantic-ui-css/semantic.min.css'
 
 const store = createStore(rootReducer, applyMiddleware(thunk))
 window.store = store
 const app =
-    <HashRouter>
+    <BrowserRouter>
         <Provider store={store}>
             <App />
         </Provider>
-    </HashRouter>
+    </BrowserRouter>
 
 ReactDOM.render(app, document.getElementById('root'));
 

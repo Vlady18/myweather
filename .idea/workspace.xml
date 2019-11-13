@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162e5066-e1f4-475a-84d7-78c859d88b54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/weatherReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/weatherReducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -387,12 +385,12 @@
       <workItem from="1565263357935" duration="595000" />
       <workItem from="1567459828130" duration="528000" />
       <workItem from="1573675984349" duration="1278000" />
-      <workItem from="1573678794035" duration="448000" />
+      <workItem from="1573678794035" duration="1027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149908000" />
+    <option name="totallyTimeSpent" value="150487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
