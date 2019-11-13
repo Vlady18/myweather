@@ -4,8 +4,6 @@ const WEATHER = 'WEATHER'
 const TOGGLE_IS_FETCH = 'TOGGLE_IS_FETCH'
 const WEATHER_ERROR = 'WEATHER_ERROR'
 
-
-
 const initialState = {
     weather: [],
     city: '',
