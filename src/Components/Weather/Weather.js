@@ -11,7 +11,8 @@ class Weather extends React.Component{
         currentInputCity: '',
         currentDate: null
     }
-    setCity=() =>{
+    setCity=(e) =>{
+        e.preventDefault();
         this.props.setCityInfo(this.state.currentInputCity)
     }
     setCurrentInputCity=(e) =>{
@@ -38,10 +39,12 @@ class Weather extends React.Component{
             <section className={classes.Weather}>
                 <h1>Check weather in your city!</h1>
                 <div className={classes.form}>
-                    <Input
-                        setCurrentInputCity={this.setCurrentInputCity}
-                    />
-                    <i onClick={this.setCity} className="fa fa-search" aria-hidden="true"></i>
+                    <form onSubmit={e => this.setCity(e)}>
+                        <Input
+                            setCurrentInputCity={this.setCurrentInputCity}
+                        />
+                        <i onClick={this.setCity} className="fa fa-search" aria-hidden="true"></i>
+                    </form>
                 </div>
                 <div className={classes.result_weather}>
                     {this.props.isFetch
